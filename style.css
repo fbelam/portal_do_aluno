@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    width: 170px;
+    height: 100%;
+    padding-top: 0%;
+    left: 0;
+    background: rgb(165, 165, 165);
+}
+
+.sidebar .image{
+    width: 100%;
+    height: 100%;
+    margin-top: -25%;
+}
+
+.sidebar h2{
+    color: dimgray;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    color: dimgray;
+    display: block;
+    width: 100%;
+    line-height: 250%;
+    text-decoration: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.tabela{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    left: 0;
+    margin-left: 15%;
+    background: rgb(165, 165, 165);
+
+}
+
+.d-flex{
+    position: relative;
+    width: 150px;
+    height: 100%;
+    padding-top: 0%;
+    right: 100%;
+    
+}
