@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins',sans-serif;
+    background-color: rgb(255, 252, 252);
 }
 
 .sidebar{
@@ -10,19 +11,21 @@
     height: 100%;
     padding-top: 0%;
     left: 0;
-    background: rgb(165, 165, 165);
+    background: white;
 }
 
 .sidebar .image{
     width: 100%;
     height: 100%;
     margin-top: -25%;
+    background-color: white;
 }
 
 .sidebar h2{
     color: dimgray;
     margin-top: 0;
     margin-bottom: 20px;
+    background: aliceblue;
 }
 
 .sidebar a{
@@ -37,12 +40,12 @@
 
 .tabela{
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 15%;
     padding-top: 3%;
     left: 0;
     margin-left: 15%;
-    background: rgb(165, 165, 165);
+    background: rgb(255, 255, 255);
 
 }
 
@@ -53,4 +56,41 @@
     padding-top: 0%;
     right: 100%;
     
+}
+
+.table{
+    position: relative;
+}
+
+.a:hover {
+    background: gold;
+  }
+
+.menu{
+    background-color: aliceblue;
+}
+
+.pesquisar{
+    padding-left: 80%;
+}
+
+.usuario{
+    position: relative;
+    width: 150px;
+    height: 35%;
+    border-radius: 50%;
+    padding-top:130px;
+}
+.usuario h5{
+    position: relative;
+    width: 150px;
+    height: 35%;
+    padding-left: 20%;
+}
+
+.usuario h7{
+    position: relative;
+    width: 150px;
+    height: 35%;
+    padding-left: 20%;
 }
